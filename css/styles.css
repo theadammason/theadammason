@@ -1,0 +1,16 @@
+footer p {
+  text-align: center;
+}
+#icon {
+  height: 100%;
+}
+#intro h2, p {
+  text-align: center;
+}
+#hello h3, p {
+  text-align: center;
+}
+#hello article {
+  margin: auto;
+  max-width: 460px;
+}
