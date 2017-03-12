@@ -30,6 +30,6 @@ footer p {
 }
 .jq-img {
   position: relative;
-  bottom: 50%;
-  transform: translateY(50%);
+  bottom: 75%;
+  transform: translateY(75%);
 }
