@@ -97,7 +97,7 @@ footer p {
   overflow: hidden;
   width: 100%;
 }
-@keyframes luigi {
+@keyframes luigiWalk {
   0% {
     transform: translateX(-10%);
   }
@@ -107,7 +107,7 @@ footer p {
 }
 .luigi {
   width: 100%;
-  animation-name: luigi;
+  animation-name: luigiWalk;
   animation-iteration-count: 1000;
   animation-timing-function: linear;
   animation-duration: 10s;
