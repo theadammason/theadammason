@@ -7,8 +7,17 @@ body {
   box-shadow: none;
   -webkit-box-shadow: none;
   border-color: transparent;
-  height: 150px;
+  /*height: 150px;*/
   margin-bottom: 0px;
+}
+.navbar-default .navbar-collapse {
+  border-color: transparent;
+}
+.navbar-brand {
+  height: 100%;
+}
+#icon {
+  height: 100%;
 }
 #intro {
   background-color: #edf0f9;
