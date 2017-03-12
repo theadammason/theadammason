@@ -16,4 +16,8 @@ app.config(function($routeProvider, $locationProvider){
     })
     .otherwise({redirectTo: '/about'});
   $locationProvider.hashPrefix('');
+}).directive('break', function(){
+  return {
+    template: '<div class="break"><div class="container"><div class="row"><div class="col-md-12"><p>&#60;&#47;&#62;</p></div></div></div></div>'
+  };
 });
