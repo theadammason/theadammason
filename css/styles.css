@@ -1,5 +1,9 @@
-footer p {
-  text-align: center;
+.navbar-default {
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-color: transparent;
 }
 #icon {
   height: 100%;
@@ -7,10 +11,25 @@ footer p {
 #intro h2, p {
   text-align: center;
 }
-#hello h3, p {
+#hello h2, p {
   text-align: center;
 }
 #hello article {
   margin: auto;
   max-width: 460px;
+}
+footer p {
+  text-align: center;
+}
+#skills h2 {
+  text-align: center;
+}
+#skills figure>img {
+  max-width: 300px;
+  max-height: 180px;
+}
+.jq-img {
+  position: relative;
+  bottom: 50%;
+  transform: translateY(50%);
 }
