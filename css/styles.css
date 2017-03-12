@@ -93,3 +93,22 @@ footer p {
   margin: 20px;
   padding: 20px;
 }
+.walkwrap {
+  overflow: hidden;
+  width: 100%;
+}
+@keyframes luigi {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(110%);
+  }
+}
+.luigi {
+  width: 100%;
+  animation-name: luigi;
+  animation-iteration-count: 1000;
+  animation-timing-function: linear;
+  animation-duration: 10s;
+}
